@@ -13,7 +13,7 @@
     <div class="header">
         <h2>Users</h2>
 
-       
+
     </div>
     <div class="main-Div">
         <div class="leftblock" id="fetchBtn">
@@ -23,25 +23,21 @@
         </div>
 
         <div class="rightblock">
-            <div id="hidden" style="display:none;">
-
-                <button class="btn-function" onclick="disappear()">Edit</button>
-                <img src="" id="imagex" class="avatarImage">
-                <h1 style="text-align: center;" id="demo" ></h1><br>
-                <h2 style="text-align: center;" id="demo2"></h2>
-                
-
-            </div>
-            <div id="editablediv" style="display:none;">
-
-                <button class="btn-function">Save</button>
-                <img src="" id="imagey" class="avatarImage">
-                <input type="text" id="demo4" placeholder="demo4" style="text-align: center;">
-                <input type="text" id="demo5" placeholder="demo5" style="text-align: center;">
-                
-
+            <div class="rmain" id="hidden">
+                <div class="btnblk">
+                    <button id="editbtn" class="btn-function">Edit</button>
+                    <button id="savebtn" class="btn-function">save</button>
+                </div>
+                <div class="flexbox-container">
+                    <img src="" id="imagex" class="avatarImage">
+                <div class="info" id="username"></div>
+                <div class="info" id="emailaddress"></div>
+                <div id="fname"></div>
+                <div id="lname"></div>
+                <div id="useremail"></div>
             </div>
         </div>
+    </div>
     </div>
     </div>
 </body>
